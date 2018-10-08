@@ -1,0 +1,14 @@
+﻿@{
+    Layout = null;
+}
+<div class="jumbotron">
+    <h1>WebSMonitor</h1>
+    <p class="lead">Introductory page that assumes stored credentials. (faux login)</p>
+    <p> Proceed to available experiments (SummaryView):</p>
+
+    @Html.ActionLink("To the summary","Summary")
+    @Html.ActionLink("Single Result page","SingleResult")
+
+
+    @Html.ActionLink("Show index", "Index")
+</div>

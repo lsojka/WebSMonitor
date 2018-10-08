@@ -1,0 +1,45 @@
+﻿@model IEnumerable<WebSMonitor.Models.Projector>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<p>
+    @Html.ActionLink("ProjectorPane template","ProjectorPane")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.About)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ExperimentId)
+        </th>
+        <th></th>
+    </tr>
+    
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.About)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ExperimentId)
+        </td>
+        <td>
+            @Html.ActionLink("Start Projecting", "StartProjecting", new { id=item.ProjectorId}) |
+            @Html.ActionLink("Fetch", "Fetch", new { id = item.ProjectorId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ProjectorId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ProjectorId })
+        </td>
+    </tr>
+}
+
+</table>

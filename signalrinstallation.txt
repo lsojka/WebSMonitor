@@ -1,0 +1,73 @@
+Attempting to gather dependency information for package 'Microsoft.AspNet.SignalR.2.3.0' with respect to project 'WebSMonitor', targeting '.NETFramework,Version=v4.5.2'
+Gathering dependency information took 45.81 sec
+Attempting to resolve dependencies for package 'Microsoft.AspNet.SignalR.2.3.0' with DependencyBehavior 'Lowest'
+Resolving dependency information took 0 ms
+Resolving actions to install package 'Microsoft.AspNet.SignalR.2.3.0'
+Resolved actions to install package 'Microsoft.AspNet.SignalR.2.3.0'
+Retrieving package 'Microsoft.AspNet.SignalR 2.3.0' from 'nuget.org'.
+Retrieving package 'Microsoft.AspNet.SignalR.Core 2.3.0' from 'nuget.org'.
+  GET https://api.nuget.org/v3-flatcontainer/microsoft.owin.security/2.1.0/microsoft.owin.security.2.1.0.nupkg
+  GET https://api.nuget.org/v3-flatcontainer/microsoft.owin/2.1.0/microsoft.owin.2.1.0.nupkg
+  GET https://api.nuget.org/v3-flatcontainer/owin/1.0.0/owin.1.0.0.nupkg
+Retrieving package 'Microsoft.AspNet.SignalR.JS 2.3.0' from 'nuget.org'.
+  GET https://api.nuget.org/v3-flatcontainer/microsoft.aspnet.signalr.systemweb/2.3.0/microsoft.aspnet.signalr.systemweb.2.3.0.nupkg
+  GET https://api.nuget.org/v3-flatcontainer/microsoft.owin.host.systemweb/2.1.0/microsoft.owin.host.systemweb.2.1.0.nupkg
+  GET https://api.nuget.org/v3-flatcontainer/microsoft.aspnet.signalr.core/2.3.0/microsoft.aspnet.signalr.core.2.3.0.nupkg
+  GET https://api.nuget.org/v3-flatcontainer/microsoft.aspnet.signalr/2.3.0/microsoft.aspnet.signalr.2.3.0.nupkg
+  GET https://api.nuget.org/v3-flatcontainer/microsoft.aspnet.signalr.js/2.3.0/microsoft.aspnet.signalr.js.2.3.0.nupkg
+Retrieving package 'Microsoft.AspNet.SignalR.SystemWeb 2.3.0' from 'nuget.org'.
+Retrieving package 'Microsoft.Owin 2.1.0' from 'nuget.org'.
+Retrieving package 'Microsoft.Owin.Host.SystemWeb 2.1.0' from 'nuget.org'.
+Retrieving package 'Microsoft.Owin.Security 2.1.0' from 'nuget.org'.
+Retrieving package 'Owin 1.0.0' from 'nuget.org'.
+  OK https://api.nuget.org/v3-flatcontainer/microsoft.aspnet.signalr.core/2.3.0/microsoft.aspnet.signalr.core.2.3.0.nupkg 539ms
+  OK https://api.nuget.org/v3-flatcontainer/microsoft.owin.security/2.1.0/microsoft.owin.security.2.1.0.nupkg 558ms
+Installing Microsoft.AspNet.SignalR.Core 2.3.0.
+Installing Microsoft.Owin.Security 2.1.0.
+  OK https://api.nuget.org/v3-flatcontainer/microsoft.aspnet.signalr/2.3.0/microsoft.aspnet.signalr.2.3.0.nupkg 1055ms
+Installing Microsoft.AspNet.SignalR 2.3.0.
+  OK https://api.nuget.org/v3-flatcontainer/microsoft.owin/2.1.0/microsoft.owin.2.1.0.nupkg 1135ms
+Installing Microsoft.Owin 2.1.0.
+  OK https://api.nuget.org/v3-flatcontainer/owin/1.0.0/owin.1.0.0.nupkg 1566ms
+Installing Owin 1.0.0.
+  OK https://api.nuget.org/v3-flatcontainer/microsoft.aspnet.signalr.systemweb/2.3.0/microsoft.aspnet.signalr.systemweb.2.3.0.nupkg 1647ms
+Installing Microsoft.AspNet.SignalR.SystemWeb 2.3.0.
+  OK https://api.nuget.org/v3-flatcontainer/microsoft.aspnet.signalr.js/2.3.0/microsoft.aspnet.signalr.js.2.3.0.nupkg 2074ms
+Installing Microsoft.AspNet.SignalR.JS 2.3.0.
+  OK https://api.nuget.org/v3-flatcontainer/microsoft.owin.host.systemweb/2.1.0/microsoft.owin.host.systemweb.2.1.0.nupkg 2164ms
+Installing Microsoft.Owin.Host.SystemWeb 2.1.0.
+Adding package 'Microsoft.AspNet.SignalR.JS.2.3.0' to folder 'C:\Users\palacelight\documents\visual studio 2017\Projects\WebSMonitor\packages'
+Added package 'Microsoft.AspNet.SignalR.JS.2.3.0' to folder 'C:\Users\palacelight\documents\visual studio 2017\Projects\WebSMonitor\packages'
+Added package 'Microsoft.AspNet.SignalR.JS.2.3.0' to 'packages.config'
+Successfully installed 'Microsoft.AspNet.SignalR.JS 2.3.0' to WebSMonitor
+Adding package 'Owin.1.0.0' to folder 'C:\Users\palacelight\documents\visual studio 2017\Projects\WebSMonitor\packages'
+Added package 'Owin.1.0.0' to folder 'C:\Users\palacelight\documents\visual studio 2017\Projects\WebSMonitor\packages'
+Added package 'Owin.1.0.0' to 'packages.config'
+Successfully installed 'Owin 1.0.0' to WebSMonitor
+Adding package 'Microsoft.Owin.2.1.0' to folder 'C:\Users\palacelight\documents\visual studio 2017\Projects\WebSMonitor\packages'
+Added package 'Microsoft.Owin.2.1.0' to folder 'C:\Users\palacelight\documents\visual studio 2017\Projects\WebSMonitor\packages'
+Added package 'Microsoft.Owin.2.1.0' to 'packages.config'
+Successfully installed 'Microsoft.Owin 2.1.0' to WebSMonitor
+Adding package 'Microsoft.Owin.Host.SystemWeb.2.1.0' to folder 'C:\Users\palacelight\documents\visual studio 2017\Projects\WebSMonitor\packages'
+Added package 'Microsoft.Owin.Host.SystemWeb.2.1.0' to folder 'C:\Users\palacelight\documents\visual studio 2017\Projects\WebSMonitor\packages'
+Added package 'Microsoft.Owin.Host.SystemWeb.2.1.0' to 'packages.config'
+Successfully installed 'Microsoft.Owin.Host.SystemWeb 2.1.0' to WebSMonitor
+Adding package 'Microsoft.Owin.Security.2.1.0' to folder 'C:\Users\palacelight\documents\visual studio 2017\Projects\WebSMonitor\packages'
+Added package 'Microsoft.Owin.Security.2.1.0' to folder 'C:\Users\palacelight\documents\visual studio 2017\Projects\WebSMonitor\packages'
+Added package 'Microsoft.Owin.Security.2.1.0' to 'packages.config'
+Successfully installed 'Microsoft.Owin.Security 2.1.0' to WebSMonitor
+Adding package 'Microsoft.AspNet.SignalR.Core.2.3.0' to folder 'C:\Users\palacelight\documents\visual studio 2017\Projects\WebSMonitor\packages'
+Added package 'Microsoft.AspNet.SignalR.Core.2.3.0' to folder 'C:\Users\palacelight\documents\visual studio 2017\Projects\WebSMonitor\packages'
+Added package 'Microsoft.AspNet.SignalR.Core.2.3.0' to 'packages.config'
+Successfully installed 'Microsoft.AspNet.SignalR.Core 2.3.0' to WebSMonitor
+Adding package 'Microsoft.AspNet.SignalR.SystemWeb.2.3.0' to folder 'C:\Users\palacelight\documents\visual studio 2017\Projects\WebSMonitor\packages'
+Added package 'Microsoft.AspNet.SignalR.SystemWeb.2.3.0' to folder 'C:\Users\palacelight\documents\visual studio 2017\Projects\WebSMonitor\packages'
+Added package 'Microsoft.AspNet.SignalR.SystemWeb.2.3.0' to 'packages.config'
+Successfully installed 'Microsoft.AspNet.SignalR.SystemWeb 2.3.0' to WebSMonitor
+Adding package 'Microsoft.AspNet.SignalR.2.3.0' to folder 'C:\Users\palacelight\documents\visual studio 2017\Projects\WebSMonitor\packages'
+Added package 'Microsoft.AspNet.SignalR.2.3.0' to folder 'C:\Users\palacelight\documents\visual studio 2017\Projects\WebSMonitor\packages'
+Added package 'Microsoft.AspNet.SignalR.2.3.0' to 'packages.config'
+Successfully installed 'Microsoft.AspNet.SignalR 2.3.0' to WebSMonitor
+Executing nuget actions took 4.82 sec
+Time Elapsed: 00:00:52.8882511
+========== Finished ==========

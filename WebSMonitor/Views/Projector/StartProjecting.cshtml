@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "StartProjecting";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>StartProjecting</h2>
+
+<h1>@DateTime.Now.ToShortDateString()</h1>
+
+<label>Running:</label> @ViewBag.Running
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+<p>
+    @Html.ActionLink("Retrieve ex", "Retrieve")
+</p>
+
