@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -46,10 +47,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.AspNet.SignalR.Core, Version=2.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.SignalR.Core.2.3.0\lib\net45\Microsoft.AspNet.SignalR.Core.dll</HintPath>
@@ -208,6 +209,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ImmediateResultsController.cs" />
     <Compile Include="Controllers\ProjectorController.cs" />
     <Compile Include="Controllers\SnapshotController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
@@ -216,7 +218,7 @@
     </Compile>
     <Compile Include="Models\ImmediateResultTickerHub.cs" />
     <Compile Include="Models\ImmediateResultTicker.cs" />
-    <Compile Include="Models\OptiNurbsImmediateResult.cs" />
+    <Compile Include="Models\ImmediateResult.cs" />
     <Compile Include="Models\ScalarmAppConfig.cs" />
     <Compile Include="Models\Projector.cs" />
     <Compile Include="Models\Snapshot.cs" />
@@ -295,7 +297,7 @@
     <Content Include="Scripts\ResultTicker.js" />
     <Content Include="Scripts\xtkprojector.js" />
     <Content Include="Scripts\xtk_edge.js" />
-    <Content Include="urls.txt" />
+    <Content Include="changelog.txt" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -320,10 +322,16 @@
     <Content Include="Scripts\stl\grain_0005.stl" />
     <Content Include="Scripts\stl\grain_0012.stl" />
     <Content Include="Scripts\stl\grain_0019.stl" />
+    <Content Include="Views\ImmediateResults\Create.cshtml" />
+    <Content Include="Views\ImmediateResults\Delete.cshtml" />
+    <Content Include="Views\ImmediateResults\Details.cshtml" />
+    <Content Include="Views\ImmediateResults\Edit.cshtml" />
+    <Content Include="Views\ImmediateResults\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Hubs\" />
+    <Folder Include="Logic\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

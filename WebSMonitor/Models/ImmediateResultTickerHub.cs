@@ -20,7 +20,7 @@ namespace WebSMonitor.Models
             _immediateResultTicker = immediateResulticker;
         }
 
-        public IEnumerable<OptiNurbsImmediateResult> GetAllResults()
+        public IEnumerable<ImmediateResult> GetAllResults()
         {
             return _immediateResultTicker.GetAllResults();
         }

@@ -1,0 +1,17 @@
+﻿
+15.10
+Bump in Entity Framework. Numerous warnings as a result.
+Installing EntityFramework 6.2.0.
+Successfully uninstalled 'EntityFramework.6.1.3' from WebSMonitor
+Adding package 'EntityFramework.6.2.0' to folder 'C:\Users\palacelight\documents\visual studio 2017\Projects\WebSMonitor\packages'
+Added package 'EntityFramework.6.2.0' to folder 'C:\Users\palacelight\documents\visual studio 2017\Projects\WebSMonitor\packages'
+Added package 'EntityFramework.6.2.0' to 'packages.config'
+Executing script file 'C:\Users\palacelight\documents\visual studio 2017\Projects\WebSMonitor\packages\EntityFramework.6.2.0\tools\init.ps1'...
+Executing script file 'C:\Users\palacelight\documents\visual studio 2017\Projects\WebSMonitor\packages\EntityFramework.6.2.0\tools\install.ps1'...
+
+Type 'get-help EntityFramework' to see all available Entity Framework commands.
+Successfully installed 'EntityFramework 6.2.0' to WebSMonitor
+Removing package 'EntityFramework.6.1.3' from folder 'C:\Users\palacelight\documents\visual studio 2017\Projects\WebSMonitor\packages'
+Removed package 'EntityFramework.6.1.3' from folder 'C:\Users\palacelight\documents\visual studio 2017\Projects\WebSMonitor\packages'
+Executing nuget actions took 11.73 sec
+Time Elapsed: 00:00:12.7405808
